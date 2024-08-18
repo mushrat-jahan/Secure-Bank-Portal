@@ -8,7 +8,7 @@ document.getElementById('btn-submit').addEventListener('click', function(){
 
     // Denger: do not varify email or password on the client site
 
-    if(email == 'sontan@baap.com' && password == 'secret'){
+    if(email == 'secure@gmail.com' && password == 'secret'){
         window.location.href = 'bank.html';
     }
     else{
